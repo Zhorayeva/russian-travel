@@ -4,3 +4,19 @@
     justify-content: space-between;
     padding: 0 48px 24px;
 }
+
+@media screen and (max-width:1023px) {
+    .footer {
+        margin: 88px 0 0;
+        padding: 0 24px 24px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .footer {
+        margin: 64px 0 0px;
+        flex-direction: column;
+        padding: 0 0 24px 16px;
+        
+    }
+}

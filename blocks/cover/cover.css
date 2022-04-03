@@ -26,3 +26,25 @@
     opacity: 1;
     cursor: pointer;
 }
+
+@media screen and (max-width:1279px) {
+    .cover {
+        padding: 0;
+    }
+
+    .cover::after {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .cover {
+        margin: 10px 0 0;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .cover {
+        margin: 16px 0 0;
+    }
+}
